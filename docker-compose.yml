@@ -1,0 +1,10 @@
+version: '2'
+services:
+    nginx:
+        image: nginx:latest
+        ports:
+            - "8080:8080"
+        volumes:
+            - ./nginx/vhost:/etc/nginx/conf.d:ro
+            - .:/srv
+        working_dir: /srv
