@@ -120,7 +120,7 @@ define([
                     this.loadedFiles[currentFile] = true;
 
                     currentFile = this.sanitizeString(currentFile, stripPrefix, stripSufix);
-                    currentFile = '/' + currentFile + '.css';
+                    currentFile = '/rampup/public/' + currentFile + '.css';
 
                     var $link = $('<link>');
                     $link.attr({
