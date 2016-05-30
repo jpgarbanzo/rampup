@@ -27,8 +27,12 @@ define([
             configureAsServerless : function() {
                 var strategy = new ServerLessResourceFetcher({
                     templates : {
-                        templatePath : '../view/',
+                        templatePath : '/rampup/public/view/',
                         templateExtension : '.html'
+                    },
+                    cssFile : {
+                        templatePath : '/rampup/public/css/',
+                        templateExtension : '.css'
                     }
                 });
                 ResourceManager.setStrategy(strategy);
