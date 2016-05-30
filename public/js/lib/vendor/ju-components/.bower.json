@@ -1,0 +1,34 @@
+{
+  "name": "ju-components",
+  "description": "",
+  "dependencies": {
+    "requirejs": ">=2.1.20",
+    "ju-shared": "hulilabs/ju-shared#v1.2.0",
+    "x-editable": "1.5.1",
+    "text": "2.0.14",
+    "mustache.js": ">=2.2.0",
+    "dropzone": ">=4.2.0"
+  },
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "homepage": "https://github.com/hulilabs/ju-components",
+  "version": "1.1.0",
+  "_release": "1.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.0",
+    "commit": "8936fbea6c68a3860170320ed240cea63442483d"
+  },
+  "_source": "https://github.com/hulilabs/ju-components.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/hulilabs/ju-components.git"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ju-shared",
+  "description": "Object Oriented and common Javascript utilities",
+  "dependencies": {
+    "blueimp-md5": "1.1.1"
+  },
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "homepage": "https://github.com/hulilabs/ju-shared",
+  "version": "1.2.0",
+  "_release": "1.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.0",
+    "commit": "d3157712de79ca947ba9d34e12d579fdd610e252"
+  },
+  "_source": "https://github.com/hulilabs/ju-shared.git",
+  "_target": "v1.2.0",
+  "_originalSource": "hulilabs/ju-shared"
+}

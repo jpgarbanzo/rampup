@@ -1,0 +1,29 @@
+{
+  "name": "ju-mvc",
+  "description": "",
+  "dependencies": {
+    "ju-shared": "hulilabs/ju-shared#latest"
+  },
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "homepage": "https://github.com/hulilabs/ju-mvc",
+  "version": "1.1.0",
+  "_release": "1.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.0",
+    "commit": "f24c08c04bcd690f0f7f6e86b03542631da8957f"
+  },
+  "_source": "https://github.com/hulilabs/ju-mvc.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/hulilabs/ju-mvc.git"
+}
