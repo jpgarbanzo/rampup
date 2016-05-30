@@ -27,7 +27,7 @@ define([
             configureAsServerless : function() {
                 var strategy = new ServerLessResourceFetcher({
                     templates : {
-                        templatePath : '/view/',
+                        templatePath : 'view/',
                         templateExtension : '.html'
                     }
                 });
